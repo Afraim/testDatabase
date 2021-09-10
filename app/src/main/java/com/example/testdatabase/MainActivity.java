@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                     String mName=name.getText().toString();
                     String mEmail=email.getText().toString();
                     User user = new User (mName, mEmail);
-                    myRef.child(mEmail).setValue(user);
+                    myRef.child(mName).setValue(user);
                     name.setText("");
                     email.setText("");
                 }
