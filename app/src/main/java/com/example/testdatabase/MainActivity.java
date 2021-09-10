@@ -27,19 +27,17 @@ public class MainActivity extends AppCompatActivity {
         sub = findViewById(R.id.submitButton);
         name = findViewById(R.id.nameTxt);
         email = findViewById(R.id.emailTxt);
-        String path = email.getText().toString();
-    DatabaseReference myRef = database.getReference("info");
 
         sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if(!(name.toString()).isEmpty() && !(email.toString()).isEmpty()){
-                    count++;
-                    TextView Data = findViewById(R.id.fromDatabase);
-                    BigData = BigData + String.valueOf(count) + ") Name : "+ name.getText() + "\n" + "Email : "+ email.getText() + "\n";
-                    String NAME = name.getText().toString(), EMAIL = email.getText().toString();;
-                    myRef.setValue(NAME,EMAIL);
-                    Data.setText(BigData);
+
+                    DatabaseReference myRef = database.getReference("info");
+                    String mName=name.getText().toString();
+                    String mEmail=email.getText().toString();
+                    User user = new User (mName, mEmail);
+                    myRef.child(mEmail).setValue(user);
                     name.setText("");
                     email.setText("");
                 }
