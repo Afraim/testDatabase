@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "489403897546",
+    "firebase_url": "https://pencil-ba325-default-rtdb.firebaseio.com",
+    "project_id": "pencil-ba325",
+    "storage_bucket": "pencil-ba325.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489403897546:android:f498d92cb8db2b78f9c633",
+        "android_client_info": {
+          "package_name": "com.example.pencil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489403897546-kbldllbi2v70uolm38cn90hcuks8mrjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzlc4GdtSlAVaV0FoQm8Bn4R3AnbR9chg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489403897546-kbldllbi2v70uolm38cn90hcuks8mrjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489403897546:android:f167ee610d2bc97cf9c633",
+        "android_client_info": {
+          "package_name": "com.example.testdatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489403897546-kbldllbi2v70uolm38cn90hcuks8mrjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzlc4GdtSlAVaV0FoQm8Bn4R3AnbR9chg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489403897546-kbldllbi2v70uolm38cn90hcuks8mrjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
